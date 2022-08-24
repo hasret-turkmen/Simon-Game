@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hasret's Simon Game</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="title">Press Start</h1>
+
+  <h3>High Score: 0</h3>
+
+  <button type="button" class="startButton">START</button>
+
+  <!--TWO BUTTONS EACH ROW-->
+  <div class="container">
+    <div class="row">
+      <div type="button" id="top-left" class="btn top-left"></div>
+      <div type="button" id="top-right" class="btn top-right"></div>
+    </div>
+
+    <div class="row">
+      <div type="button" id="bottom-left" class="btn bottom-left"></div>
+      <div type="button" id="bottom-right" class="btn bottom-right"></div>
+    </div>
+
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="game.js" charset="utf-8"></script>
+</body>
+
+<footer class="foot"> Hasret Türkmen 20/08/2022</footer>
+</html>
